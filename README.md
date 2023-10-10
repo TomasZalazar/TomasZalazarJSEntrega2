@@ -41,9 +41,6 @@ Este proyecto es una aplicación simple de Bloc de Notas escrita en JavaScript q
 
 
 ```python
-# ¡Keep coding and stay awesome! 💻🤩
-
-```python
 🙏🏼 ¡Gracias de nuevo y que tengas un día increíble! 😃✨
 
 ¡Hasta luego! 👋🏼
