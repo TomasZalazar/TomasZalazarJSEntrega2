@@ -39,13 +39,6 @@ Este proyecto es una aplicación simple de Bloc de Notas escrita en JavaScript q
 - [Deployment](https://tomaszalazar.github.io/TomasZalazarJSEntrega2/)
 
 
-
-<<<<<<< HEAD
-```python
-# ¡Keep coding and stay awesome! 💻🤩
-=======
->>>>>>> 89062ecac76889a3257006ff605c4d24f2d2dde6
-
 ```python
 🙏🏼 ¡Gracias de nuevo y que tengas un día increíble! 😃✨
 
