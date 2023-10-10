@@ -12,7 +12,7 @@ function obtenerFechaHoraLocal() {
 // Función para agregar una nueva tarea al bloc de tareas con fecha y hora local
 function agregarTareaNueva(nuevaTarea) {
     const fechaHoraLocal = obtenerFechaHoraLocal();
-    const tareaConFecha = `Nueva tarea agregada el ${fechaHoraLocal}:\n\n${nuevaTarea}`;
+    const tareaConFecha = `Nueva tarea agregada el ${fechaHoraLocal}:\n${nuevaTarea}\n`;
     blocDeTareas.push(tareaConFecha);
     alert("¡Nueva tarea agregada!");
 }
