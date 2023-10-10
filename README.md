@@ -1,4 +1,4 @@
-# TomasZalazarJSEntrega2
+
 # Bloc de Notas en JavaScript
 
 ## Descripción
