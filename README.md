@@ -40,12 +40,8 @@ Este proyecto es una aplicación simple de Bloc de Notas escrita en JavaScript q
 
 
 
-  ```python
-# ¡Keep coding and stay awesome! 💻🤩
-Gracias por tomar el tiempo para leer este README. Espero que haya sido útil y claro. Si tienes alguna pregunta o necesitas más ayuda, no dudes en contactarme. Estoy aquí para ayudarte siempre que lo necesites. 😊
 
-¡Mucho éxito en tu proyecto! Que tus ideas brillen y tus líneas de código fluyan sin problemas. 🚀
-
+```python
 🙏🏼 ¡Gracias de nuevo y que tengas un día increíble! 😃✨
 
 ¡Hasta luego! 👋🏼
