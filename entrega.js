@@ -1,14 +1,11 @@
-
 const blocDeTareas = [];
 let opcion = "";
-
 // Función para obtener la fecha y hora actual en la zona horaria local del usuario
 function obtenerFechaHoraLocal() {
     const fechaActual = new Date();
     const formatoFechaHoraLocal = fechaActual.toLocaleString();
     return formatoFechaHoraLocal;
 }
-
 // Función para agregar una nueva tarea al bloc de tareas con fecha y hora local
 function agregarTareaNueva(nuevaTarea) {
     const fechaHoraLocal = obtenerFechaHoraLocal();
@@ -16,7 +13,6 @@ function agregarTareaNueva(nuevaTarea) {
     blocDeTareas.push(tareaConFecha);
     alert("¡Nueva tarea agregada!");
 }
-
 // Función para editar una tarea en el bloc de tareas
 function editarTarea(indice, nuevaTarea) {
     const indiceArreglo = indice - 1;
@@ -28,7 +24,6 @@ function editarTarea(indice, nuevaTarea) {
         alert("El número de tarea ingresado es incorrecto.");
     }
 }
-
 // Función para eliminar una tarea del bloc de tareas
 function eliminarTarea(indice) {
     const indiceArreglo = indice - 1;
@@ -39,7 +34,6 @@ function eliminarTarea(indice) {
         alert("El número de tarea ingresado es incorrecto.");
     }
 }
-
 // Función para mostrar todas las tareas en el bloc de tareas
 function mostrarTodasLasTareas() {
     let mensaje = "Todas las tareas en el bloc de tareas:\n\n";
@@ -48,11 +42,6 @@ function mostrarTodasLasTareas() {
     });
     alert(mensaje);
 }
-
-
-
-
-
 do {
     opcion = prompt(`ELEGIR UNA OPCIÓN:
     1. Agregar Tarea
@@ -60,7 +49,6 @@ do {
     3. Eliminar Tarea
     4. Mostrar Todas las Tareas
     5. Salir del Programa`);
-    
     if (opcion === "1") {
         const nuevaTarea = prompt("Ingrese una nueva tarea:");
         agregarTareaNueva(nuevaTarea);
@@ -75,5 +63,4 @@ do {
         mostrarTodasLasTareas();
     }
 } while (opcion !== "5");
-
 alert("Saliendo del programa");
